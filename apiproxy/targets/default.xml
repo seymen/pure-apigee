@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetEndpoint name="default">
+
+    <HTTPTargetConnection>
+        <Properties>
+            <Property name="success.codes">2XX,3XX,4XX</Property>
+        </Properties>
+        <URL>https://httpbin.org</URL>
+    </HTTPTargetConnection>
+
+</TargetEndpoint>
